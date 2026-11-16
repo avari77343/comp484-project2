@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Take care of Mochi, your tiny pixel pet.">
+  <title>Pixel Pals — Giga Pet</title>
+  <link rel="icon" type="image/svg+xml" href="images/mochi-pet.svg">
+  <link rel="stylesheet" href="style.css">
+  <!-- jQuery is loaded before the project script so its methods are available. -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="Pixel Pals home"><span class="brand-mark">✦</span> PIXEL PALS</a>
+      <span class="edition">POCKET PET SYSTEM <span class="online-dot"></span></span>
+    </header>
+
+    <main>
+      <section class="intro">
+        <p class="eyebrow">YOUR NEW LITTLE ROOMMATE</p>
+        <h1>A tiny friend.<br><span>A big personality.</span></h1>
+        <p class="intro-copy">Check in, show some love, and help your pixel pal thrive.</p>
+      </section>
+
+      <section class="pet-console" aria-label="Mochi's pet dashboard">
+        <div class="console-topline"><span>01 / PET STATUS</span><span class="status-label">● ACTIVE</span></div>
+        <div class="pet-stage">
+          <div class="stage-stars" aria-hidden="true">✦　·　✧　　 ·　✦</div>
+          <img class="pet-image" src="images/mochi-pet.svg" alt="Mochi, a round lavender pixel creature with little ears and a happy face">
+          <div class="pet-nameplate"><span class="tiny-label">CURRENT COMPANION</span><h2 class="name">Mochi</h2></div>
+        </div>
+
+        <div class="dashboard">
+          <div class="stats-heading"><h2>MOCHI'S VITALS</h2><span>LIVE READOUT</span></div>
+          <div class="stats-grid">
+            <article class="stat-card weight-card"><span class="stat-icon">◈</span><span class="stat-label">WEIGHT</span><strong><span class="weight">8</span><small> lbs</small></strong></article>
+            <article class="stat-card happy-card"><span class="stat-icon">♡</span><span class="stat-label">HAPPINESS</span><strong><span class="happiness">6</span><small> / 10</small></strong></article>
+          </div>
+
+          <div class="action-heading"><h2>CHOOSE AN ACTION</h2><span>BE NICE!</span></div>
+          <div class="button-container">
+            <button class="action-button treat-button" type="button"><span>＋</span> Treat</button>
+            <button class="action-button play-button" type="button"><span>✧</span> Play</button>
+            <button class="action-button exercise-button" type="button"><span>↗</span> Exercise</button>
+            <button class="action-button nap-button" type="button"><span>☾</span> Nap</button>
+          </div>
+
+          <div class="message-panel" aria-live="polite" aria-atomic="true">
+            <span class="message-avatar">M</span>
+            <div><span class="tiny-label">MOCHI SAYS</span><p id="pet-message">Hi! I'm Mochi. What should we do today?</p></div>
+          </div>
+
+          <form class="rename-form">
+            <label for="pet-name-input">GIVE YOUR PET A NICKNAME</label>
+            <div class="rename-controls"><input id="pet-name-input" type="text" maxlength="18" placeholder="Enter a new name"><button type="submit">Rename</button></div>
+            <p class="form-hint">A name change is permanent for this visit.</p>
+          </form>
+        </div>
+      </section>
+      <p class="footer-note">A LITTLE PIXEL FRIENDSHIP GOES A LONG WAY <span>✦</span></p>
+    </main>
+  </div>
+</body>
+</html>

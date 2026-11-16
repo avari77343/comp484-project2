@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Lavender pixel pet">
+  <defs>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="1.4"/></filter>
+  </defs>
+  <ellipse cx="80" cy="139" rx="43" ry="7" fill="#a99fe0" opacity=".28" filter="url(#soft)"/>
+  <!-- Original pixel-style creature drawn for this project. -->
+  <g stroke="#6656a9" stroke-width="3" stroke-linejoin="round">
+    <path fill="#a99aef" d="M34 61V42h14V28h18v14h28V28h18v14h14v19h9v49h-9v14H34v-14h-9V61z"/>
+    <path fill="#c8bcff" d="M48 47V35h12v12h-9v10h-8V47zm52 0V35h12v12h5v10h-8V47z" stroke="none"/>
+    <path fill="#8978dc" d="M35 83h-9v24h9v14h14v9h62v-9h14v-14h9V83h-9v22h-9v14H49v-14h-9V83z" stroke="none"/>
+    <path fill="#fff" d="M51 77h13v17H51zM96 77h13v17H96z" stroke="none"/>
+    <path fill="#3b315f" d="M56 81h6v9h-6zM101 81h6v9h-6z" stroke="none"/>
+    <path fill="#f18eaf" d="M40 96h13v7H40zm67 0h13v7h-13z" stroke="none"/>
+    <path fill="none" stroke="#6656a9" stroke-width="3" d="M72 103q8 9 16 0"/>
+    <path fill="#b6a8fa" d="M53 124h15v10H53zm39 0h15v10H92z"/>
+  </g>
+  <path d="M18 55l4 8 8 4-8 4-4 8-4-8-8-4 8-4zM137 29l3 6 6 3-6 3-3 6-3-6-6-3 6-3z" fill="#fff" opacity=".9"/>
+</svg>
