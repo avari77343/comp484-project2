@@ -16,4 +16,4 @@ Open `index.html` in Chrome while connected to the internet (the page loads jQue
 ## Publish with GitHub Pages
 Push the project files to your GitHub repository, then enable GitHub Pages from the repository's **Settings → Pages**. Select the main branch and root folder. Add your live Pages URL here after publishing.
 
-**Live site:** _Add your GitHub Pages URL here._
+**Live site:** https://avari77343.github.io/comp484-project2/
